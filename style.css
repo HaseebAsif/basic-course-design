@@ -83,7 +83,65 @@ p {
 .hero-img {
   width: 100%;
 }
-
+.available-courses-section {
+  height: 100vh;
+  padding: 0 100px;
+}
+.card {
+  height: 18rem;
+  width: 18rem;
+  border: 1px solid black;
+  /* background-color: #545be8; */
+}
+.card-text {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: max-content;
+}
+.card-text-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-text-paras {
+  display: flex;
+}
+.card-img {
+  background-image: url("./card-img-1.png");
+  height: 13rem;
+  position: relative;
+}
+.course-tag-text {
+  background-color: purple;
+  color: white;
+  width: fit-content;
+  padding: 8px;
+  position: absolute;
+  top: 20px;
+}
+.course-price {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  justify-content: end;
+  padding-top: 170px;
+  padding-right: 20px;
+}
+.cards-section {
+  /* display: flex; */
+  gap: 40px;
+}
+.first-2-cards {
+  display: flex;
+  gap: 50px;
+}
+.second-2-cards {
+  display: flex;
+  gap: 50px;
+  margin-top: 50px;
+}
 @media screen and (max-width: 1080px) {
   .hero-section {
     flex-direction: column;
